@@ -26,8 +26,34 @@ We proviede the statistics of the results as follows:
 ### 2. Data Format
 The storage unit of raw syntactic information is the json file mentioned above. </br>
 Each json file contains about **10000** raw syntax information, including *lemma*, *xpos*, *upos*, *head* and *deprel*.</br>
-We show an item in file **2/1/1_1_10000.json** as an example
+We take one  item from the file **2/1/1_1_10000.json** as an example
 
+<table>
+  <tr>
+    <td><b>lemma</b></td> 
+    <td>['you', 'should', 'stick', 'with', 'you', 'kid', '.']</td> 
+    </tr>
+  <tr>
+    <td><b>xpos</b></td> 
+    <td>['PRP', 'MD', 'VB', 'IN', 'PRP$', 'NN', '.']</td> 
+  </tr>
+  <tr>
+    <td><b>upos</b></td> 
+    <td>['PRON', 'AUX', 'VERB', 'ADP', 'PRON', 'NOUN', 'PUNCT']</td> 
+  </tr>
+  <tr>
+    <td><b>head</b></td> 
+    <td>[3, 3, 0, 6, 6, 3, 3]</td> 
+  </tr>
+  <tr>
+    <td><b>deprel</b></td> 
+    <td>['nsubj', 'aux', 'root', 'case', 'nmod:poss', 'obl', 'punct']</td> 
+  </tr>
+</table>
+<b>Note that</b>, we only utilize the head information to build the syntax tree in our paper.</br>
+How to make better use of xpos, upos and deprel information <b>is still a challenge</b>.
+
+<!--
 <table>
   <tr>
     <td><b>lemma</b></td> 
@@ -50,6 +76,8 @@ We show an item in file **2/1/1_1_10000.json** as an example
     <td>['mark', 'nsubj', 'advcl', 'case', 'det', 'obl', 'det', 'obl:tmod', 'punct', 'nsubj', 'aux', 'advmod', 'root', 'det', 'obj', 'case', 'nmod', 'mark', 'advcl', 'punct']</td> 
   </tr>
 </table>
+-->
+
 
 ## Fine-tuning Stage
-
+We evaluate our proposed SEPREM model on entity typing, question answering and relation classification tasks under the different corresponding benchmarks, ${\it e.g.}$,  Open Entity, FIGER, SearchQA, Quasar-T, CosmosQA, and TACRED, respectively. Thanks to RuiZe's help, we use the fine-tuning pipeline provided by [K-adaper](https://arxiv.org/abs/2002.01808). Those piplelines are available from [here](https://github.com/microsoft/K-Adapter).
