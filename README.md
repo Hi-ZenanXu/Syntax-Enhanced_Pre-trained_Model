@@ -25,7 +25,7 @@ If you find that some json files are broken, this is due to unstable network tra
 We proviede the statistics of the results as follows:
 |Section Number|Number of Folder|Is provided|Total Number of Sentence / Json File|
 :-:|:-:|:-:|:-:
-|1|10|:x:||
+|1||:x:||
 |2|10|:grinning:|96988985 / 9699|
 |3||||
 |4||||
