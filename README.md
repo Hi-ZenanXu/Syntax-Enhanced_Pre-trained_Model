@@ -23,10 +23,19 @@ Unfortunatelly, the first section was deleted by mistake, so we can only provide
 If you find that some json files are broken, this is due to unstable network transmission, please leave an issue and I will re-upload it as soon as possible.
 
 We proviede the statistics of the results as follows:
-|Section Number|Number of Folder|Is provided|Total Number of Sentence|
+|Section Number|Number of Folder|Is provided|Total Number of Sentence / Json File|
 :-:|:-:|:-:|:-:
 |1|10|:x:||
-|2|10|:grinning:||
+|2|10|:grinning:|96988985 / 9699|
+|3||||
+|4||||
+|5||||
+|6||||
+|7||||
+|8||||
+|9||||
+|10||||
+|11||||
 |Sum|||0|
 
 ### 2. Data Format
