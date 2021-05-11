@@ -8,8 +8,11 @@ In this paper, we present SEPREM that leverage syntax information to enhance pre
 For more details about our paper, we refer the interested readers to the xxxxx.
 
 ## Pre-training Data
-We make the constructed 1B sentence public with the correponding syntax information to the community.</br>
-You can download the data from xxxx (preparing)
+We randomly collected 1B sentences from publicly released common crawl news datasets \cite{NIPS2019_9106} that contain English news articles crawled between December 2016 and March 2019.  Then, we adopted off-the-shelf [Stanza](https://github.com/stanfordnlp/stanza) to automatically generate the syntax information for each sentence. 
+It took a month and a half to get the results when running on 64 V100-32G. The average token length of each sentence is 25.34, and the average depth of syntax trees is 5.15.</br>
+
+Now, we make the constructed 1B sentence public with the correponding syntax information to the community.</br>
+You can download the data from xxxx (preparing).
 
 ### 1. File Structure
 Due to the large amount of data,  we split the results of raw syntax information into **11** sections instead of storing in a single file. </br>
@@ -19,8 +22,8 @@ Unfortunatelly, the first section was deleted by mistake, so we can only provide
 We proviede the statistics of the results as follows:
 |Section Number|Number of Folder|Is provided|Total Number of Sentence|
 :-:|:-:|:-:|:-:
-|1|2|:x:||
-|1|2|:grinning:||
+|1|10|:x:||
+|2|10|:grinning:||
 |Sum|||0|
 
 ### 2. Data Format
