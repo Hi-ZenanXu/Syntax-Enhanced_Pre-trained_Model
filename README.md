@@ -12,14 +12,14 @@ We randomly collected 1B sentences from publicly released common crawl news data
 It took a month and a half to get the results when running on 64 V100-32G. The average token length of each sentence is 25.34, and the average depth of syntax trees is 5.15.</br>
 
 Now, we make the constructed 1B sentence public with the correponding syntax information to the community.</br>
-You can download the data from here (preparing).</br>
+You can download the data from my onedrive (preparing).</br>
 <b>Please note that</b> the total size of all files is above 800GB.</br>
 Since I am using my student certificate, the data on onedrive will <b>expire in 2023</b>.
 
 ### 1. File Structure
 Due to the large amount of data,  we split the results of raw syntax information into **11** sections instead of storing in a single file. </br>
 Each section generally contains **10** folders with each folder contains about **10000** json files.</br>
-Unfortunatelly, the first section was deleted by mistake, so we can only provide the  2nd~11th sections.</br>
+Unfortunatelly, the first section was deleted by mistake, so we can only provide the  **2nd~11th** sections.</br>
 
 We proviede the statistics of the results as follows:
 |Section Number|Number of Folder|Is provided|Total Number of Sentence|
