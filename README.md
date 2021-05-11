@@ -2,7 +2,7 @@
 Source Data of ACL2021 paper "Syntax-Enhanced Pre-trained Model". 
 
 
-## Paper
+## Summary of  Paper
 In this paper, we present SEPREM that leverage syntax information to enhance pre-trained models. To inject syntactic information, we introduce a syntax-aware attention layer and a newly designed pre-training task are proposed. Experimental results show that our method achieves state-of-the-art performance over six datasets. Further analysis shows that the proposed dependency distance prediction task performs better than dependency head prediction task.
 
 For more details about our paper, we refer the interested readers to the xxxxx.
@@ -12,7 +12,9 @@ We randomly collected 1B sentences from publicly released common crawl news data
 It took a month and a half to get the results when running on 64 V100-32G. The average token length of each sentence is 25.34, and the average depth of syntax trees is 5.15.</br>
 
 Now, we make the constructed 1B sentence public with the correponding syntax information to the community.</br>
-You can download the data from xxxx (preparing).
+You can download the data from here (preparing).</br>
+<b>Please note that</b> the total size of all files is above 800GB.</br>
+Since I am using my student certificate, the data on onedrive will <b>expire in 2023</b>.
 
 ### 1. File Structure
 Due to the large amount of data,  we split the results of raw syntax information into **11** sections instead of storing in a single file. </br>
