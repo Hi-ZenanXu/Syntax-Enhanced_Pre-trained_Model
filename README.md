@@ -85,4 +85,4 @@ How to make better use of xpos, upos and deprel information <b>is still a challe
 
 
 ## Fine-tuning Stage
-We evaluate our proposed SEPREM model on entity typing, question answering and relation classification tasks under the different corresponding benchmarks, ${\it e.g.}$,  Open Entity, FIGER, SearchQA, Quasar-T, CosmosQA, and TACRED, respectively. Thanks to RuiZe's help, we use the fine-tuning pipeline provided by [K-adaper](https://arxiv.org/abs/2002.01808). Those piplelines are available from [here](https://github.com/microsoft/K-Adapter).
+We evaluate our proposed SEPREM model on entity typing, question answering and relation classification tasks under the different corresponding benchmarks, *e.g.*,  Open Entity, FIGER, SearchQA, Quasar-T, CosmosQA, and TACRED, respectively. Thanks to RuiZe's help, we use the fine-tuning pipeline provided by [K-adaper](https://arxiv.org/abs/2002.01808). Those piplelines are available from [here](https://github.com/microsoft/K-Adapter).
