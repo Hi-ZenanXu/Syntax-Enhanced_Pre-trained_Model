@@ -20,6 +20,7 @@ Since I am using my student certificate, the data on onedrive will <b>expire in 
 Due to the large amount of data,  we split the results of raw syntax information into **11** sections instead of storing in a single file. </br>
 Each section generally contains **10** folders with each folder contains about **10000** json files.</br>
 Unfortunatelly, the first section was deleted by mistake, so we can only provide the  **2nd~11th** sections.</br>
+If you find that some json files are broken, this is due to unstable network transmission, please leave an issue and I will re-upload it as soon as possible.
 
 We proviede the statistics of the results as follows:
 |Section Number|Number of Folder|Is provided|Total Number of Sentence|
