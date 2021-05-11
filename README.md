@@ -13,7 +13,7 @@ It took a month and a half to get the results when running on 64 V100-32G. The a
 
 Now, we make the constructed 1B sentence public with the correponding syntax information to the community.</br>
 You can download the data from my [OneDrive](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/xuzn_mail2_sysu_edu_cn/ElrJsiEbzK9KlRInoBbmr1oBuCmUdRPVTdDvyk05GLPtcw) (Uploading from 2021/05/11).</br>
-<b>Please note that</b> the total size of all files is above 800GB.</br>
+<b>Please note that</b> the total size of all files should above 800GB, but we can only provide 722GB.</br>
 Since I am using my student certificate, the data on onedrive will <b>expire in 2023</b>.
 
 ### 1. File Structure
@@ -36,7 +36,7 @@ We proviede the statistics of the results as follows:
 |9|9||53.5||
 |10|9||69.8||
 |11|11||85.3||
-|Sum||||0|
+|Sum|||722.3|0|
 
 ### 2. Data Format
 The storage unit of raw syntactic information is the json file mentioned above. </br>
