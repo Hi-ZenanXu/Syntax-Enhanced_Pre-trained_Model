@@ -19,7 +19,7 @@ Since I am using my student certificate, the data on onedrive will <b>expire in 
 ### 1. File Structure
 Due to the large amount of data,  we split the results of raw syntax information into **11** sections instead of storing in a single file. </br>
 Each section generally contains **10** folders with each folder contains about **10000** json files.</br>
-Unfortunatelly, the first section was deleted by mistake, so we can only provide the  **2nd~11th** sections.</br>
+Unfortunatelly, the first section was deleted by mistake, so only the  **2nd~11th** sections can be provided. The 9/6 and 9/8 are also missing.</br>
 If you find that some json files are broken, this is due to unstable network transmission, please leave an issue and I will re-upload it as soon as possible.
 
 We proviede the statistics of the results as follows:
@@ -33,7 +33,7 @@ We proviede the statistics of the results as follows:
 |6|9|:grinning:|68.3|86357503 / 8636|
 |7|10|:grinning:|73.5|91920280 / 9193|
 |8|9||71.3|89769348 / 8977|
-|9|9||53.5|66958763 / 6696|
+|9|7||53.5|66958763 / 6696|
 |10|9||69.8|86494425 / 8650|
 |11|11||85.3|109427451 / 10943|
 |Sum|||722.3|903454744 / 90349|
