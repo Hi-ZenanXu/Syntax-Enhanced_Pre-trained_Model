@@ -12,7 +12,7 @@ We randomly collected 1B sentences from publicly released common crawl news data
 It took a month and a half to get the results when running on 64 V100-32G. The average token length of each sentence is 25.34, and the average depth of syntax trees is 5.15.</br>
 
 Now, we make the constructed 1B sentence public with the correponding syntax information to the community.</br>
-You can download the data from my [OneDrive](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/xuzn_mail2_sysu_edu_cn/ElrJsiEbzK9KlRInoBbmr1oBuCmUdRPVTdDvyk05GLPtcw) (Uploading from 2021/05/11).</br>
+You can download the data from my [OneDrive](https://mail2sysueducn-my.sharepoint.com/:f:/g/personal/xuzn_mail2_sysu_edu_cn/ElrJsiEbzK9KlRInoBbmr1oBuCmUdRPVTdDvyk05GLPtcw) (Upload from 2021/05/11 and end on 2021/05/18).</br>
 <b>Please note that</b> the total size of all files should above 800GB, but we can only provide 722GB.</br>
 Since I am using my student certificate, the data on onedrive will <b>expire in 2023</b>.
 
@@ -34,8 +34,8 @@ We proviede the statistics of the results as follows:
 |7|10|:grinning:|73.5|91920280 / 9193|
 |8|9|:grinning:|71.3|89769348 / 8977|
 |9|7|:grinning:|53.5|66958763 / 6696|
-|10|9||69.8|86494425 / 8650|
-|11|11||85.3|109427451 / 10943|
+|10|9|:grinning:|69.8|86494425 / 8650|
+|11|11|:grinning:|85.3|109427451 / 10943|
 |Sum|||722.3|903454744 / 90349|
 
 ### 2. Data Format
