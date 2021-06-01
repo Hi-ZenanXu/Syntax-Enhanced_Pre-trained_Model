@@ -5,7 +5,7 @@ Source Data of ACL2021 paper "Syntax-Enhanced Pre-trained Model".
 ## Summary of  Paper
 In this paper, we present SEPREM that leverage syntax information to enhance pre-trained models. To inject syntactic information, we introduce a syntax-aware attention layer and a newly designed pre-training task are proposed. Experimental results show that our method achieves state-of-the-art performance over six datasets. Further analysis shows that the proposed dependency distance prediction task performs better than dependency head prediction task.
 
-For more details about our paper, we refer the interested readers to the xxxxx.
+For more details about our paper, we refer the interested readers to [here](https://arxiv.org/pdf/2012.14116.pdf).
 
 ## Pre-training Data
 We randomly collected 1B sentences from publicly released common crawl news datasets ([CCNews](https://commoncrawl.org/)) that contain English news articles crawled between December 2016 and March 2019.  Then, we adopted off-the-shelf [Stanza](https://github.com/stanfordnlp/stanza) to automatically generate the syntax information for each sentence. 
